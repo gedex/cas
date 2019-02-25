@@ -5,6 +5,8 @@ cas
 
 Allows you to execute commands in your server via HTTP. Commands to execute are defined in YAML config file.
 
+[![Build][travis-image]][travis-url]
+
 ## Usage
 
 Given `config.yml`:
@@ -229,3 +231,6 @@ curl -X POST 'http://localhost:1307/ping' \
 }
 
 ```
+
+[travis-image]: https://img.shields.io/travis/gedex/cas/master.svg?label=linux
+[travis-url]: https://travis-ci.org/gedex/cas
